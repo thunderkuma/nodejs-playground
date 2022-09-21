@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-playground",
+  "version": "0.0.1",
+  "description": "A NodeJS playground repo with Typescript",
+  "author": "Jimmy Wong (jimmy.wong@thunderkuma.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:thunderkuma/nodejs-playground.git"
+  },
+  "main": "dist/index",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "crypto-js": "^4.1.1"
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "semi": true,
+    "singleQuote": true
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.18"
+  }
+}
